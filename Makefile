@@ -6,7 +6,7 @@ create-cluster:
 
 
 get-cli:
-	az acs kubernetes install-cli --install-location .
+	az acs kubernetes install-cli --install-location ./kubectl
 
 
 get-credentials:
